@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_products_product_variants",
+  "info": {
+    "displayName": "Product Variant",
+    "icon": "gem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "color": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    }
+  }
+}

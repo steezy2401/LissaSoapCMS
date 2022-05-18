@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_products_product_informations",
+  "info": {
+    "displayName": "Product Information",
+    "icon": "info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "fields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "information.info-field",
+      "required": true
+    }
+  }
+}

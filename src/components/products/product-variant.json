@@ -7,9 +7,9 @@
   },
   "options": {},
   "attributes": {
-    "image": {
+    "images": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": true,
       "allowedTypes": [
         "images"
@@ -19,6 +19,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::color.color"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
     }
   }
 }

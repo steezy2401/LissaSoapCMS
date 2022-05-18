@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_slider_slider_tabs",
+  "info": {
+    "displayName": "Slider Tab",
+    "icon": "table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    },
+    "showCounter": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}
